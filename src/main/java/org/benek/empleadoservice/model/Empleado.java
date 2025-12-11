@@ -1,4 +1,4 @@
-package com.example.restservice.entity;
+package org.benek.empleadoservice.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -15,10 +15,10 @@ public class Empleado {
     private String nombre;
     private String puesto;
 
-    public Empleado(){
+    public Empleado() {
     }
 
-    public Empleado(String nombre, String puesto){
+    public Empleado(String nombre, String puesto) {
         this.nombre = nombre;
         this.puesto = puesto;
     }

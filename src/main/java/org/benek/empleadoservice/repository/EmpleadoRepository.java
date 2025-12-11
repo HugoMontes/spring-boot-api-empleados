@@ -1,6 +1,6 @@
-package com.example.restservice.repository;
+package org.benek.empleadoservice.repository;
 
-import com.example.restservice.entity.Empleado;
+import org.benek.empleadoservice.model.Empleado;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

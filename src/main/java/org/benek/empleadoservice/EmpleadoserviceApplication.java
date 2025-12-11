@@ -1,13 +1,13 @@
-package com.example.restservice;
+package org.benek.empleadoservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RestserviceApplication {
+public class EmpleadoserviceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RestserviceApplication.class, args);
+		SpringApplication.run(EmpleadoserviceApplication.class, args);
 	}
 
 }

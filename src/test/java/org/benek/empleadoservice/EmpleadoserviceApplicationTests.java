@@ -1,10 +1,10 @@
-package com.example.restservice;
+package org.benek.empleadoservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RestserviceApplicationTests {
+class EmpleadoserviceApplicationTests {
 
 	@Test
 	void contextLoads() {
